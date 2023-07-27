@@ -20,7 +20,7 @@ text-transform: uppercase;
 font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 800;
-line-height: 1,16;
+line-height: 1.16;
 letter-spacing: 0.54px;
 }
 .half-logo {
@@ -32,29 +32,31 @@ color:var(--navy-blue)
 .menu-nav {
 list-style: none;
 }
+
+
 .menu-nav li a {
 color: var(--slate);
 font-size: 16px;
 font-weight: 500;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.32px;
 }
 .contacts-list li a  {
 color: var(--slate, #434455);
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.32px;
 }
 .contacts-list{
     list-style: none;
 }
-.contacts-list li a:hover{
-    color:var(--ocean)
+.contacts-list li a:hover {
+    color: var(--ocean);
 }
 nav a:focus{
     color:var(--ocean)
 }
-nav a :hover{
+nav a:hover{
     color: var(--ocean)
 }
 .title-section  {
@@ -70,7 +72,8 @@ line-height: 1.07;
 letter-spacing: 1.12px;
 }
 button:hover{
-    cursor:pointer
+    cursor:pointer;
+    background-color: var(--ocean);
 }
 button{
 background-color: var(--iris);   
@@ -78,32 +81,29 @@ color: var(--white, #FFF);
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.64px;
 }
 .article-list-item {
 width: 264px 
 }
 .article-list-item h3 {
-color: var(--navyblue, #2E2F42);
 font-size: 20px;
 font-weight: 500;
-line-height: 1,2;
+line-height: 1.2;
 letter-spacing: 0.4px;  
 }
 
 .article-list-item p{
 color: var(--slate, #434455);
 font-size: 16px;
-font-weight: 400;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.32px;
 }
 .doing-heading h2 {
-color: var(--navyblue, #2E2F42);
 font-size: 36px;
 font-weight: 700;
-line-height: 1,11;
+line-height: 1.11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
@@ -111,48 +111,47 @@ text-transform: capitalize;
 background-color: var(--cloud);
 }
 .list-team h2{
-color: var(--navyblue, #2E2F42);
-
 font-size: 36px;
 font-weight: 700;
-line-height: 1,11;
+line-height: 1.11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
 .list h3 {
-color: var(--navyblue, #2E2F42);
 font-size: 20px;
 font-weight: 500;
-line-height: 1,2;
+line-height: 1.2;
 letter-spacing: 0.4px;
 }
 .list p {
 color: var(--slate, #434455);
 font-size: 16px;
-font-weight: 400;
-line-height: 1,5px;
+line-height: 1.5px;
 letter-spacing: 0.32px;
 }
 .footer-section {
 background-color: var(--navy-blue);
 }
 .footer-studio{
- text-transform: uppercase
+ text-transform: uppercase;
  font-family:"Raleway", sans-serif;   
 }
 .footer-logo {
  color: var(--cloud)   
 }
 .footer-section p {
- width:264px
+ width:264px;
  letter-spacing: 0.02em;
  color: var(--cloud)
  }
-.list {
+.list-doing-img {
+list-style: none;
+}
+.list{
 list-style: none;
 }
 .projects-card-item button {
-color:var(--iris)
+color:var(--iris);
 background-color: var(--cornflower);
 font-size: 16px;
 font-weight: 500;
@@ -169,8 +168,7 @@ letter-spacing: 0.64px;
 }
 
 .photo-section h3 {
-    color: var(--navy-blue);
-    font-size: 20px;
+   font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
