@@ -13,8 +13,8 @@ color:#2E2F42;
 text-decoration: none;
 }
 a {
-text-decoration: none;}
-
+text-decoration: none;
+}
 .header-studio {
 text-transform: uppercase;
 font-family: Raleway, sans-serif;
@@ -22,18 +22,15 @@ font-size: 18px;
 font-weight: 800;
 line-height: 1.16;
 letter-spacing: 0.54px;
-}
-.half-logo {
-color:var(--iris)
+color:#4D5AE5 ;
+text-decoration: none;
 }
 .header-logo {
-color:var(--navy-blue)
+color:var(--navy-blue);
 }
 .menu-nav {
 list-style: none;
 }
-
-
 .menu-nav li a {
 color: var(--slate);
 font-size: 16px;
@@ -54,10 +51,10 @@ letter-spacing: 0.32px;
     color: var(--ocean);
 }
 nav a:focus{
-    color:var(--ocean)
+    color:var(--ocean);
 }
 nav a:hover{
-    color: var(--ocean)
+    color: var(--ocean);
 }
 .title-section  {
 background: var(--navyblue, #2E2F42);
@@ -72,8 +69,8 @@ line-height: 1.07;
 letter-spacing: 1.12px;
 }
 button:hover{
-    cursor:pointer;
-    background-color: var(--ocean);
+cursor:pointer;
+background-color: var(--ocean);
 }
 button{
 background-color: var(--iris);   
@@ -84,14 +81,12 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
 }
-
 .article-list-item h3 {
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.4px;  
 }
-
 .article-list-item p {
 color: var(--slate, #434455);
 font-size: 16px;
@@ -132,15 +127,16 @@ background-color: var(--navy-blue);
 }
 .footer-studio{
  text-transform: uppercase;
- font-family:"Raleway", sans-serif;   
+ font-family:"Raleway", sans-serif;  
+ color:var(--iris)
 }
 .footer-logo {
- color: var(--cloud)   
+  color: var(--cloud);
 }
 .footer-section p {
  width:264px;
  letter-spacing: 0.02em;
- color: var(--cloud)
+ color: var(--cloud);
  }
 .list-doing-img {
 list-style: none;
@@ -164,14 +160,12 @@ letter-spacing: 0.64px;
 .photo-section h1 {
     color: white;
 }
-
 .photo-section h3 {
    font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
-
 .photo-section p {
     color: var(--slate);
 }
