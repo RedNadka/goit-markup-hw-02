@@ -84,9 +84,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
 }
-.article-list-item {
-width: 264px 
-}
+
 .article-list-item h3 {
 font-size: 20px;
 font-weight: 500;
@@ -94,7 +92,7 @@ line-height: 1.2;
 letter-spacing: 0.4px;  
 }
 
-.article-list-item p{
+.article-list-item p {
 color: var(--slate, #434455);
 font-size: 16px;
 line-height: 1.5;
